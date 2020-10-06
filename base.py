@@ -30,3 +30,6 @@ class Order:
 
     def total_price(self):
         return round(self.shares * self.unit_price, 2)
+
+
+def add_to_yaml(obj):
